@@ -7,7 +7,7 @@ export default defineConfig({
     'One config file defines one agent; one platform runs a fleet — on your own infrastructure.',
   base: '/oryxos/',
   cleanUrls: true,
-  appearance: 'dark',
+  appearance: 'force-light',
 
   head: [
     ['link', { rel: 'icon', type: 'image/svg+xml', href: '/favicon.svg' }],

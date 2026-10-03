@@ -387,8 +387,8 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 <style scoped>
 .oy-page {
   min-height: 100vh;
-  background: #000000;
-  color: #f5f5f5;
+  background: #ffffff;
+  color: #171717;
 }
 
 /* ── hero ── */
@@ -410,9 +410,9 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   gap: 8px;
   padding: 6px 16px;
   border-radius: 20px;
-  border: 1px solid #333333;
-  background: #0d0d0d;
-  color: #a3a3a3;
+  border: 1px solid #d4d4d4;
+  background: #fafafa;
+  color: #525252;
   font-size: 12px;
   margin-bottom: 28px;
 }
@@ -420,7 +420,7 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   width: 6px;
   height: 6px;
   border-radius: 50%;
-  background: #f5f5f5;
+  background: #171717;
   animation: oy-pulse 2s infinite;
 }
 @keyframes oy-pulse {
@@ -433,17 +433,17 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   font-size: clamp(72px, 14vw, 120px);
   font-weight: 900;
   letter-spacing: -0.03em;
-  color: #f5f5f5;
+  color: #171717;
 }
 .oy-title-sub {
   font-size: 18px;
-  color: #a3a3a3;
+  color: #525252;
   margin: 0 0 20px;
 }
 .oy-hero-desc {
   font-size: 16px;
   line-height: 1.7;
-  color: #a3a3a3;
+  color: #525252;
   max-width: 620px;
   margin: 0 0 32px;
 }
@@ -457,8 +457,8 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-btn-primary {
   padding: 11px 28px;
   border-radius: 8px;
-  background: #f5f5f5;
-  color: #000000;
+  background: #171717;
+  color: #ffffff;
   font-weight: 600;
   font-size: 14px;
   text-decoration: none;
@@ -471,20 +471,20 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-btn-ghost {
   padding: 11px 28px;
   border-radius: 8px;
-  border: 1px solid #333333;
-  color: #d4d4d4;
+  border: 1px solid #d4d4d4;
+  color: #404040;
   font-weight: 600;
   font-size: 14px;
   text-decoration: none;
   transition: border-color 0.2s, background 0.2s;
 }
 .oy-btn-ghost:hover {
-  border-color: #f5f5f5;
-  background: #0d0d0d;
+  border-color: #171717;
+  background: #fafafa;
 }
 .oy-hero-note {
   font-size: 12px;
-  color: #737373;
+  color: #8f8f8f;
 }
 
 /* ── sections ── */
@@ -499,7 +499,7 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   max-width: 1400px;
 }
 .oy-shaded {
-  background: #0d0d0d;
+  background: #fafafa;
 }
 .oy-section-header {
   text-align: center;
@@ -511,22 +511,22 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: #525252;
   padding: 4px 12px;
   border-radius: 20px;
-  border: 1px solid #333333;
-  background: #0d0d0d;
+  border: 1px solid #d4d4d4;
+  background: #fafafa;
   margin-bottom: 14px;
 }
 .oy-section-title {
   font-size: clamp(22px, 4vw, 32px);
   font-weight: 700;
-  color: #f5f5f5;
+  color: #171717;
   margin: 0 0 12px;
 }
 .oy-section-desc {
   font-size: 15px;
-  color: #a3a3a3;
+  color: #525252;
   max-width: 620px;
   margin: 0 auto;
   line-height: 1.6;
@@ -540,18 +540,18 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   align-items: start;
 }
 .oy-problem-text p {
-  color: #a3a3a3;
+  color: #525252;
   line-height: 1.7;
   margin: 0 0 14px;
   font-size: 15px;
 }
 .oy-problem-item strong {
-  color: #f5f5f5;
+  color: #171717;
   display: block;
   margin-bottom: 4px;
 }
 .oy-solution-line {
-  color: #f5f5f5 !important;
+  color: #171717 !important;
   font-weight: 600;
 }
 .oy-problem-compare {
@@ -562,19 +562,19 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-compare-item {
   padding: 20px;
   border-radius: 12px;
-  border: 1px solid #262626;
+  border: 1px solid #e5e5e5;
 }
 .oy-compare-bad {
-  background: #0a0a0a;
+  background: #f7f7f7;
 }
 .oy-compare-good {
-  background: #0d0d0d;
-  border-color: #d4d4d4;
+  background: #fafafa;
+  border-color: #404040;
 }
 .oy-compare-label {
   font-size: 11px;
   font-weight: 700;
-  color: #737373;
+  color: #8f8f8f;
   margin-bottom: 12px;
   text-transform: uppercase;
   letter-spacing: 0.08em;
@@ -589,18 +589,18 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   align-items: flex-start;
   gap: 10px;
   font-size: 13px;
-  color: #a3a3a3;
+  color: #525252;
   line-height: 1.5;
 }
 .oy-compare-icon {
   flex-shrink: 0;
   font-style: normal;
-  color: #bbbbbb;
+  color: #999999;
   font-weight: 700;
   width: 14px;
 }
 .oy-icon-ok {
-  color: #f5f5f5;
+  color: #171717;
 }
 
 /* ── architecture diagrams ── */
@@ -613,20 +613,20 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-arch-img {
   width: 100%;
   display: block;
-  border: 1px solid #262626;
+  border: 1px solid #e5e5e5;
   border-radius: 12px;
 }
 .oy-arch-subtitle {
   text-align: center;
   font-size: 20px;
   font-weight: 700;
-  color: #f5f5f5;
+  color: #171717;
   margin: 40px 0 8px;
 }
 .oy-arch-subdesc {
   text-align: center;
   font-size: 14px;
-  color: #a3a3a3;
+  color: #525252;
   max-width: 620px;
   margin: 0 auto 24px;
   line-height: 1.6;
@@ -646,8 +646,8 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-card {
   padding: 20px;
   border-radius: 14px;
-  border: 1px solid #262626;
-  background: #000000;
+  border: 1px solid #e5e5e5;
+  background: #ffffff;
   display: flex;
   flex-direction: column;
   gap: 12px;
@@ -656,8 +656,8 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   overflow: hidden;
 }
 .oy-card:hover {
-  border-color: #f5f5f5;
-  box-shadow: 0 4px 16px rgba(255, 255, 255, 0.06);
+  border-color: #171717;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.08);
 }
 .oy-card-header {
   display: flex;
@@ -671,22 +671,22 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-card-title {
   font-size: 17px;
   font-weight: 700;
-  color: #f5f5f5;
+  color: #171717;
   margin: 0 0 2px;
 }
 .oy-card-subtitle {
   font-size: 12px;
-  color: #737373;
+  color: #8f8f8f;
   margin: 0;
 }
 .oy-code {
-  background: #0d0d0d;
-  border: 1px solid #262626;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
   border-radius: 8px;
   padding: 14px 16px;
   font-size: 12px;
   line-height: 1.6;
-  color: #d4d4d4;
+  color: #404040;
   overflow-x: auto;
   margin: 0;
   white-space: pre;
@@ -708,13 +708,13 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   gap: 16px;
   padding: 20px;
   border-radius: 12px;
-  border: 1px solid #262626;
-  background: #0a0a0a;
+  border: 1px solid #e5e5e5;
+  background: #f7f7f7;
 }
 .oy-scenario-num {
   font-size: 28px;
   font-weight: 900;
-  color: #262626;
+  color: #e5e5e5;
   line-height: 1;
   flex-shrink: 0;
   font-variant-numeric: tabular-nums;
@@ -722,12 +722,12 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-scenario-title {
   font-size: 15px;
   font-weight: 600;
-  color: #f5f5f5;
+  color: #171717;
   margin: 0 0 6px;
 }
 .oy-scenario-desc {
   font-size: 13px;
-  color: #a3a3a3;
+  color: #525252;
   line-height: 1.65;
   margin: 0;
 }
@@ -739,8 +739,8 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   gap: 20px;
 }
 .oy-integration {
-  background: #000000;
-  border: 1px solid #262626;
+  background: #ffffff;
+  border: 1px solid #e5e5e5;
   border-radius: 16px;
   padding: 28px 24px;
   display: flex;
@@ -748,7 +748,7 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   gap: 12px;
 }
 .oy-integration-featured {
-  border-color: #f5f5f5;
+  border-color: #171717;
 }
 .oy-integration-icon {
   font-size: 28px;
@@ -756,12 +756,12 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-integration-title {
   font-size: 17px;
   font-weight: 700;
-  color: #f5f5f5;
+  color: #171717;
   margin: 0;
 }
 .oy-integration-desc {
   font-size: 14px;
-  color: #a3a3a3;
+  color: #525252;
   line-height: 1.6;
   margin: 0;
   flex: 1;
@@ -774,11 +774,11 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-installs code {
   font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
   font-size: 12px;
-  background: #0d0d0d;
-  border: 1px solid #262626;
+  background: #fafafa;
+  border: 1px solid #e5e5e5;
   border-radius: 6px;
   padding: 5px 10px;
-  color: #f5f5f5;
+  color: #171717;
   display: block;
   overflow-x: auto;
   white-space: nowrap;
@@ -794,8 +794,8 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   font-size: 11px;
   font-weight: 700;
   background: #f0f0f0;
-  border: 1px solid #333333;
-  color: #d4d4d4;
+  border: 1px solid #d4d4d4;
+  color: #404040;
 }
 
 /* ── endpoint grid ── */
@@ -814,7 +814,7 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   font-weight: 700;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #a3a3a3;
+  color: #525252;
   margin-bottom: 4px;
 }
 .oy-endpoint-row {
@@ -823,16 +823,16 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
   gap: 16px;
   padding: 8px 14px;
   border-radius: 8px;
-  background: #0a0a0a;
-  border: 1px solid #262626;
+  background: #f7f7f7;
+  border: 1px solid #e5e5e5;
   flex-wrap: wrap;
 }
 .oy-endpoint-path {
   font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, monospace;
   font-size: 12px;
-  color: #f5f5f5;
+  color: #171717;
   background: #f0f0f0;
-  border: 1px solid #333333;
+  border: 1px solid #d4d4d4;
   padding: 2px 8px;
   border-radius: 4px;
   flex-shrink: 0;
@@ -840,7 +840,7 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 }
 .oy-endpoint-desc {
   font-size: 13px;
-  color: #a3a3a3;
+  color: #525252;
   flex: 1;
 }
 
@@ -853,12 +853,12 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-cta-title {
   font-size: 28px;
   font-weight: 700;
-  color: #f5f5f5;
+  color: #171717;
   margin: 0 0 12px;
 }
 .oy-cta-desc {
   font-size: 15px;
-  color: #a3a3a3;
+  color: #525252;
   margin: 0 0 24px;
 }
 .oy-cta-code {
@@ -874,7 +874,7 @@ java -jar oryxos-boot/target/oryxos-boot-*.jar chat</code></pre>
 .oy-cta-note {
   margin: 20px auto 0;
   font-size: 12px;
-  color: #737373;
+  color: #8f8f8f;
   max-width: 560px;
   line-height: 1.7;
 }
