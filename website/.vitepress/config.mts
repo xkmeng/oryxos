@@ -38,7 +38,7 @@ export default defineConfig({
         content: 'One config file defines one agent; one platform runs a fleet.',
       },
     ],
-    ['meta', { property: 'og:url', content: 'https://oryxos.robustmq.com' }],
+    ['meta', { property: 'og:url', content: 'https://xkmeng.github.io/oryxos/' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['meta', { name: 'twitter:title', content: 'OryxOS — Distributed AI Agent OS' }],
     [
@@ -48,7 +48,7 @@ export default defineConfig({
         content: 'One config file defines one agent; one platform runs a fleet.',
       },
     ],
-    ['link', { rel: 'canonical', href: 'https://oryxos.robustmq.com' }],
+    ['link', { rel: 'canonical', href: 'https://xkmeng.github.io/oryxos/' }],
   ],
 
   locales: {
@@ -108,6 +108,6 @@ export default defineConfig({
   },
 
   sitemap: {
-    hostname: 'https://oryxos.robustmq.com',
+    hostname: 'https://xkmeng.github.io/oryxos/',
   },
 })
