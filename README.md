@@ -15,7 +15,7 @@
 </p>
 
 <p align="center">
-  <a href="#readme">English</a> · <a href="docs/oryxos.md">中文简介</a>
+  <strong>English</strong> · <a href="README.zh.md">中文</a>
 </p>
 
 ---
